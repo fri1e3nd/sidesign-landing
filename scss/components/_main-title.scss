@@ -1,0 +1,17 @@
+.main-title {
+    font-family: 'Archivo Black', sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 110px;
+    text-transform: uppercase;
+    line-height: .9;
+    letter-spacing: -1px;
+    transform: scale3d(1, .75, 1);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 1);
+    margin-bottom: 50px;
+    span {
+        color: rgba(255, 255, 255, 0);
+        -webkit-text-stroke-width: .5px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, .5);
+    }
+}

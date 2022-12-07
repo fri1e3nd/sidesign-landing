@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Sidesign</title>
+</head>
+<body>
+
+    <header class="header">
+        <div class="header__wrapper">
+            <a class="header__logo" href="#home">
+                <img src="images/global/logo.png" alt="logo">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a class="header__link change-cursor" href="#services">What we do</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link change-cursor" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link change-cursor" href="#reviews">Reviews</a>
+                    </li>
+                    <li class="header__item">
+                        <a class="header__link change-cursor" href="#contact">Contact us</a>
+                    </li>
+                </ul>
+                <a class="header__btn change-cursor" href="#services">Get started</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="container">   
+            <h1 class="main-title"><span>We create a</span><br>Custom design<br><span>For your</span><br><span>Busines</span></h1>
+        </div>
+        <div class="decor-line"></div> 
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <ul class="services__list">
+                <li class="services__item">
+                    <div class="services__body">
+                        <div class="services__title">Logo</div>
+                        <ul class="services__text-list">
+                            <li class="services__text-item">2-3 concepts</li>
+                            <li class="services__text-item">7 working days</li>
+                            <li class="services__text-item">4 free edits</li>
+                        </ul>
+                    </div>
+                    <button class="services__btn change-cursor" data-modal-btn="logotype">Order now</button>
+                </li>
+                <li class="services__item">
+                    <div class="services__body">
+                        <div class="services__title">Presentation</div>
+                        <ul class="services__text-list">
+                            <li class="services__text-item">Test slides in 2 days</li>
+                            <li class="services__text-item">14 working days</li>
+                            <li class="services__text-item">8 free edits</li>
+                        </ul>
+                    </div>
+                    <button class="services__btn change-cursor" data-modal-btn="presentation">Order now</button>
+                </li>
+                <li class="services__item">
+                    <div class="services__body">
+                        <div class="services__title">Identity</div>
+                        <ul class="services__text-list">
+                            <li class="services__text-item">2-3 concepts</li>
+                            <li class="services__text-item">28 working days</li>
+                            <li class="services__text-item">1 brand book</li>
+                            <li class="services__text-item">5 milestones</li>
+                        </ul>
+                    </div>
+                    <button class="services__btn change-cursor" data-modal-btn="identity">Order now</button>
+                </li>
+            </ul>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <section class="projects" id="portfolio">
+        <div class="container">
+            <h2 class="main-title">Projects</h2>
+            <div class="projects__tabs">
+                <div class="projects__btn-list">
+                    <button class="btn btn--active" data-tabs-btn="logotypes">Logotypes</button>
+                    <button class="btn" data-tabs-btn="presentations">Presentations</button>
+                    <button class="btn" data-tabs-btn="identity">Identity</button>
+                </div>
+                <div class="projects__content">
+                    <div class="projects__content-item projects__content-item--open" data-tabs-item="logotypes">
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-1.jpg" alt="link-1">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-2.jpg" alt="link-2">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-3.jpg" alt="link-3">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-4.png" alt="link-4">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-5.jpeg" alt="link-5">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/logotypes/image-6.png" alt="link-6">
+                        </a>
+                    </div>
+                    <div class="projects__content-item" data-tabs-item="presentations">
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/presentations/image-1.png" alt="link-1">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/presentations/image-2.jpeg" alt="link-2">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/presentations/image-3.png" alt="link-3">
+                        </a>
+                    </div>
+                    <div class="projects__content-item" data-tabs-item="identity">
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/identity/image-1.jpeg" alt="link-1">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/identity/image-2.png" alt="link-2">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/identity/image-3.jpeg" alt="link-3">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/identity/image-4.jpg" alt="link-4">
+                        </a>
+                        <a class="projects__link" href="#">
+                            <img src="images/projects/identity/image-5.jpeg" alt="link-5">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <section class="work">
+        <div class="container">
+            <h2 class="main-title"><span>How it</span><br>works</h2>
+            <ul class="work__list">
+                <li class="work__item">
+                    <div class="work__number">1</div>
+                    <div class="work__desc">Firstly, select a plan matching your goal</div>
+                </li>
+                <li class="work__item">
+                    <div class="work__number">2</div>
+                    <div class="work__desc">Fill out a brief that we send to you</div>
+                </li>
+                <li class="work__item work__item_null"></li>
+                <li class="work__item work__item_null"></li>
+                <li class="work__item">
+                    <div class="work__number">3</div>
+                    <div class="work__desc">We receive and process your information</div>
+                </li>
+                <li class="work__item">
+                    <div class="work__number">4</div>
+                    <div class="work__desc">Enjoy the first concepts from our dream design team in 3 working days</div>
+                </li>
+            </ul>
+            <div class="work__text">Warning: full refund is possible only if you cancel the job in 3 working days after paying the deposit. Otherwise, the deposit is not refundable. We do our best and fulfill 97% of our clients' requirements.</div>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="main-title"><span>What our</span><br>clients say</h2>
+            <div class="reviews__navigation">
+                <button class="reviews__navigation-prev change-cursor">
+                    <img src="images/global/arrow.png" alt="prev">
+                </button>
+                <button class="reviews__navigation-next change-cursor">
+                    <img src="images/global/arrow.png" alt="next">
+                </button>
+            </div>
+            <div class="reviews__swiper swiper">
+                <div class="reviews__swiper-wrapper swiper-wrapper">
+                    <div class="reviews__item swiper-slide">
+                        <div class="reviews__basic">
+                            <div class="reviews__symbol">“</div>
+                            <div class="reviews__text">Our task was the creation of a logotype for our new startup. I was pleasantly surprised with the quality of the outcome. Thank you for your effectiveness and creativity.</div>
+                        </div>
+                        <div class="reviews__signature">
+                            <div class="reviews__name">Mia Mann,</div>
+                            <div class="reviews__work">Agricult</div>
+                        </div>
+                    </div>
+                    <div class="reviews__item swiper-slide">
+                        <div class="reviews__basic">
+                            <div class="reviews__symbol">“</div>
+                            <div class="reviews__text">The communication throughout the project was perfect. We just filled out a short description of our project and the designer immediately got the notion of the work that needs to be done. The logo is beautiful, sophisticated and minimalistic. Thanks to Sidesign for their impeccable taste!</div>
+                        </div>
+                        <div class="reviews__signature">
+                            <div class="reviews__name">Yovana Tomich,</div>
+                            <div class="reviews__work">Poach</div>
+                        </div>
+                    </div>
+                    <div class="reviews__item swiper-slide">
+                        <div class="reviews__basic">
+                            <div class="reviews__symbol">“</div>
+                            <div class="reviews__text">It was a pleasure to work with you and will definitely use the service again when I need a custom logotype. I am satisfied with work, everything was done quickly and as I wanted it to be. Looking forward to the moment when we launch our Instagram account with a brand new design!</div>
+                        </div>
+                        <div class="reviews__signature">
+                            <div class="reviews__name">Victoria Temchyshyn,</div>
+                            <div class="reviews__work">Black Diamond</div>
+                        </div>
+                    </div>
+                    <div class="reviews__item swiper-slide">
+                        <div class="reviews__basic">
+                            <div class="reviews__symbol">“</div>
+                            <div class="reviews__text">We used the company's service and got an amazing logotype that we use across our platforms. Appreciate the time and passion the designer put into our project. I will definitely recommend the service to other people.</div>
+                        </div>
+                        <div class="reviews__signature">
+                            <div class="reviews__name">Nelson Delvitta,</div>
+                            <div class="reviews__work">Wx Corp</div>
+                        </div>
+                    </div>
+                    <div class="reviews__item swiper-slide">
+                        <div class="reviews__basic">
+                            <div class="reviews__symbol">“</div>
+                            <div class="reviews__text">I am really happy that I chose Sidesign for my logo. The team showed real talent, imagination and skill. I was also please at the respect shown for my ideas, even when poorly articulated by me ???? Thank you so so much for bringing my brand to life.</div>
+                        </div>
+                        <div class="reviews__signature">
+                            <div class="reviews__name">Eleanor Meliha, </div>
+                            <div class="reviews__work">TM</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <section class="faq">
+        <div class="container">
+            <h2 class="main-title">F.a.q.</h2>
+            <ul class="faq__list">
+                <li class="faq__item">
+                    <div class="faq__title">Do you do a fixed price outcomes?</div>
+                    <div class="faq__text">Yes. We provide a fix price option for some types of projects like logotypes and sometimes we provide a fixed price-list for creating a startup pitch deck (up to 25 slides and for certain kinds of startups).</div>
+                </li>
+                <li class="faq__item">
+                    <div class="faq__title">Are these the only products thats you create?</div>
+                    <div class="faq__text">We can make more graphic products such as social media banners, landing pages, logo animation etc. Everything else should be discussed individually</div>
+                </li>
+                <li class="faq__item">
+                    <div class="faq__title">Are you guys working with dig companies?</div>
+                    <div class="faq__text">We equally treat big businesses, startups and first-time entrepreneurs, so everyone can get great quality outcomes with minimum troubles.</div>
+                </li>
+            </ul>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__wrapper">
+                <div class="contact__left">
+                    <h2 class="main-title"><span>Get in</span><br>touch</h2>
+                    <div class="contact__text">Drop us a message or fill out the form and we will contact you soon.</div>
+                    <a class="contact__email change-cursor" href="mailto:sidesign.design@gmail.com">sidesign.design@gmail.com</a>
+                    <div class="contact__social">
+                        <a class="contact__link change-cursor" href="#">
+                            <img src="images/contact/instagram.png" alt="instagram">
+                        </a>
+                        <a class="contact__link change-cursor" href="#">
+                            <img src="images/contact/facebook.png" alt="facebook">             
+                        </a>
+                        <a class="contact__link change-cursor" href="#">
+                            <img src="images/contact/linkedin.png" alt="linkedin">
+                        </a>
+                    </div>
+                </div>
+                <div class="contact__form">
+                    <input name="name" required placeholder="Name" type="text">
+                    <input name="email" required placeholder="E-mail" type="email">
+                    <textarea name="message" required placeholder="Your message" rows="6"></textarea>
+                    <div class="contact__btn">
+                        <button class="btn btn_active">Send</button>
+                        <div class="contact__privacy">By clicking the button you agree to our <span>Terms & Privacy</span> policy</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="decor-line"></div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a class="footer__logo" href="#home">
+                    <img src="images/global/logo.png" alt="logo">
+                </a>
+                <div class="footer__text">All rights reserved © 2021</div>
+                <a class="footer__text" href="#">Terms & Privacy policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <section class="modal">
+        <div class="modal__wrapper">
+            <div class="modal__item" data-modal-item="logotype">
+                <form class="modal__form" action="#">
+                    <h2 class="modal__title">Logotype</h2>
+                    <div class="modal__subtitle">Fill out the form and we will contact you soon</div>
+                    <input required placeholder="Name" type="text" name="name">
+                    <input required placeholder="examle@gmail.com" type="email" name="email">
+                    <input required placeholder="999-876-54-32" type="number" name="phone">
+                    <textarea required placeholder="Your message" rows="6" name="message"></textarea>
+                    <button class="btn btn_modal">Send</button>
+                    <div class="modal__text">By clicking the button you agree to our <span>Terms & Privacy</span> policy</div>
+                </form>
+            </div>
+            <div class="modal__item" data-modal-item="presentation">
+                <form class="modal__form" action="#">
+                    <h2 class="modal__title">Presentation</h2>
+                    <div class="modal__subtitle">Fill out the form and we will contact you soon</div>
+                    <input required placeholder="Name" type="text" name="name">
+                    <input required placeholder="examle@gmail.com" type="email" name="email">
+                    <input required placeholder="999-876-54-32" type="number" name="phone">
+                    <textarea required placeholder="Your message" rows="6" name="message"></textarea>
+                    <button class="btn btn_modal">Send</button>
+                    <div class="modal__text">By clicking the button you agree to our <span>Terms & Privacy</span> policy</div>
+                </form>
+            </div>
+            <div class="modal__item" data-modal-item="identity">
+                <form class="modal__form" action="#">
+                    <h2 class="modal__title">Identity</h2>
+                    <div class="modal__subtitle">Fill out the form and we will contact you soon</div>
+                    <input required placeholder="Name" type="text" name="name">
+                    <input required placeholder="examle@gmail.com" type="email" name="email">
+                    <input required placeholder="999-876-54-32" type="number" name="phone">
+                    <textarea required placeholder="Your message" rows="6" name="message"></textarea>
+                    <button class="btn btn_modal">Send</button>
+                    <div class="modal__text">By clicking the button you agree to our <span>Terms & Privacy</span> policy</div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="animation">
+        <canvas id="canvas"></canvas>
+    </section>
+
+    <script src="js/script.min.js"></script>
+</body>
+</html>

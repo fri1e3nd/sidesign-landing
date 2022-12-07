@@ -1,0 +1,21 @@
+.btn {
+    max-width: 250px;
+    width: 100%;
+    font-family: 'Archivo Black', sans-serif;
+    color: rgba(255, 255, 255, .5);
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 15px;
+    @include style;
+    &_active {
+        border: 1px solid rgba(56, 139, 253, 1);
+        color: rgba(255, 255, 255, 1);
+        background: rgba(56, 139, 253, 1);
+    }
+    &_modal {
+        max-width: 100%;
+        border: 1px solid rgba(56, 139, 253, 1);
+        color: rgba(255, 255, 255, 1);
+        background: rgba(56, 139, 253, 1);
+    }
+}
